@@ -17,12 +17,12 @@ fi
 
 # Fallback for the $RPC_USER variable
 if [ -z "$RPC_USER" ]; then
-    RPC_USER="multichainrpc"
+    RPC_USER="rpc"
 fi
 
 # Fallback for the $RPC_PASSWORD variable
 if [ -z "$RPC_PASSWORD" ]; then
-    RPC_PASSWORD="this-is-insecure-change-it"
+    RPC_PASSWORD="qwerpoiu"
 fi
 
 # Fallback for the $RPC_ALLOW_IP variable
